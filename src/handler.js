@@ -24,7 +24,7 @@ const addNoteHandler = (request, h) => {
         noteId: id,
       },
     });
-    response.conde(201);
+    response.code(201);
 
     return response;
   }
